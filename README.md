@@ -12,3 +12,5 @@ This simple app is built using:
 * CSS
 * Bootstrap
 * Pure vanilla JavaScript
+
+Deployed: [Tip Calculator App](https://olga1598.github.io/tip-calculator/ "Tip Calculator")
