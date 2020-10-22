@@ -8,7 +8,7 @@ document.querySelector(".loan-form").addEventListener("submit", function(e) {
     // Show the loading image
     document.querySelector("#loading").style.display = "block";
 
-    setTimeout(formSubmittion, 2000);
+    setTimeout(formSubmittion, 1000);
     e.preventDefault();
 });
 
@@ -21,9 +21,6 @@ function formSubmittion() {
     const amount = document.querySelector("#amount").value;
     const tip = parseInt(document.querySelector("#tip").value);
     const numPeople = parseInt(document.querySelector("#people-amount").value);
-    console.log(amount.value);
-    console.log(tip);
-    console.log(numPeople);
 
     // Results
     const totalAmount = document.querySelector("#total-amount");
